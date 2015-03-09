@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ana.p02_fotos.FragFotoPeq">
+
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+
+        android:src="@drawable/rafiki"
+
+        android:id="@+id/Raf"
+        android:onClick="MuestraGrande"
+        />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+
+        android:src="@drawable/zazu"
+
+        android:id="@+id/Zaz"
+        android:onClick="MuestraGrande"
+        />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+
+        android:src="@drawable/scar"
+
+        android:id="@+id/Sca"
+        android:onClick="MuestraGrande"
+        />
+
+</LinearLayout>
