@@ -6,7 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class p02 extends Activity {
+public class p02 extends Activity implements detectaImg {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
